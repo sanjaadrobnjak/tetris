@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tetris-dodatno/tetris-igra-stil.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="tetris-dodatno/skripta-igra.js"></script>
+    
+</head>
+<body>
+    <hr><hr>
+    <h1>Igra</h1>
+
+    <div>
+        <table>
+            <tr id="i0">
+                <td id="i0j0"></td>
+                <td id="i0j1"></td>
+                <td id="i0j2"></td>
+                <td id="i0j3"></td>
+                <td id="i0j4"></td>
+                <td id="i0j5"></td>
+                <td id="i0j6"></td>
+                <td id="i0j7"></td>
+                <td id="i0j8"></td>
+                <td id="i0j9"></td>
+            </tr>
+            <tr id="i1">
+                <td id="i1j0"></td>
+                <td id="i1j1"></td>
+                <td id="i1j2"></td>
+                <td id="i1j3"></td>
+                <td id="i1j4"></td>
+                <td id="i1j5"></td>
+                <td id="i1j6"></td>
+                <td id="i1j7"></td>
+                <td id="i1j8"></td>
+                <td id="i1j9"></td>
+            </tr>
+            <tr id="i2">
+                <td id="i2j0"></td>
+                <td id="i2j1"></td>
+                <td id="i2j2"></td>
+                <td id="i2j3"></td>
+                <td id="i2j4"></td>
+                <td id="i2j5"></td>
+                <td id="i2j6"></td>
+                <td id="i2j7"></td>
+                <td id="i2j8"></td>
+                <td id="i2j9"></td>
+            </tr>
+            <tr id="i3">
+                <td id="i3j0"></td>
+                <td id="i3j1"></td>
+                <td id="i3j2"></td>
+                <td id="i3j3"></td>
+                <td id="i3j4"></td>
+                <td id="i3j5"></td>
+                <td id="i3j6"></td>
+                <td id="i3j7"></td>
+                <td id="i3j8"></td>
+                <td id="i3j9"></td>
+            </tr>
+            <tr id="i4">
+                <td id="i4j0"></td>
+                <td id="i4j1"></td>
+                <td id="i4j2"></td>
+                <td id="i4j3"></td>
+                <td id="i4j4"></td>
+                <td id="i4j5"></td>
+                <td id="i4j6"></td>
+                <td id="i4j7"></td>
+                <td id="i4j8"></td>
+                <td id="i4j9"></td>
+            </tr>
+            <tr id="i5">
+                <td id="i5j0"></td>
+                <td id="i5j1"></td>
+                <td id="i5j2"></td>
+                <td id="i5j3"></td>
+                <td id="i5j4"></td>
+                <td id="i5j5"></td>
+                <td id="i5j6"></td>
+                <td id="i5j7"></td>
+                <td id="i5j8"></td>
+                <td id="i5j9"></td>
+            </tr>
+            <tr id="i6">
+                <td id="i6j0"></td>
+                <td id="i6j1"></td>
+                <td id="i6j2"></td>
+                <td id="i6j3"></td>
+                <td id="i6j4"></td>
+                <td id="i6j5"></td>
+                <td id="i6j6"></td>
+                <td id="i6j7"></td>
+                <td id="i6j8"></td>
+                <td id="i6j9"></td>
+            </tr>
+            <tr id="i7">
+                <td id="i7j0"></td>
+                <td id="i7j1"></td>
+                <td id="i7j2"></td>
+                <td id="i7j3"></td>
+                <td id="i7j4"></td>
+                <td id="i7j5"></td>
+                <td id="i7j6"></td>
+                <td id="i7j7"></td>
+                <td id="i7j8"></td>
+                <td id="i7j9"></td>
+            </tr>
+            <tr id="i8">
+                <td id="i8j0"></td>
+                <td id="i8j1"></td>
+                <td id="i8j2"></td>
+                <td id="i8j3"></td>
+                <td id="i8j4"></td>
+                <td id="i8j5"></td>
+                <td id="i8j6"></td>
+                <td id="i8j7"></td>
+                <td id="i8j8"></td>
+                <td id="i8j9"></td>
+            </tr>
+            <tr id="i9">
+                <td id="i9j0"></td>
+                <td id="i9j1"></td>
+                <td id="i9j2"></td>
+                <td id="i9j3"></td>
+                <td id="i9j4"></td>
+                <td id="i9j5"></td>
+                <td id="i9j6"></td>
+                <td id="i9j7"></td>
+                <td id="i9j8"></td>
+                <td id="i9j9"></td>
+            </tr>
+        </table>
+    </div>
+    <span>
+        Broj osvojenih poena: <span id="rezultat"></span>
+        <br>
+        Nivo igre: 
+        <span id="nivoIgre">1</span>
+        <br>
+    </span>
+    <span>
+        Sledeći blok: <br>
+        <table class="sledeci">
+            <tr class="sledeci">
+                <td id="sli0j0"></td>
+                <td id="sli0j1"></td>
+                <td id="sli0j2"></td>
+                <td id="sli0j3"></td>
+            </tr>
+            <tr class="sledeci">
+                <td id="sli1j0"></td>
+                <td id="sli1j1"></td>
+                <td id="sli1j2"></td>
+                <td id="sli1j3"></td>
+            </tr>
+        </table>
+    </span>
+    <hr><hr>
+
+    
+</body>
+</html>

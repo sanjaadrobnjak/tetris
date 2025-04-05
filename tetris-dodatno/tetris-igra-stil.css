@@ -1,0 +1,38 @@
+body{
+    background-color:#f0c3d1;
+    color: #df5d86;
+    font-family: "Reddit Mono", monospace;
+}
+
+h1{
+    color: #df5d86;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Silkscreen", sans-serif;
+}
+
+div{
+    color: #df5d86;
+    text-align: left;
+    font-size: 30px;
+    font-family:"Kanit", sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    color: #df5d86;
+}
+
+td {
+    border: 1px solid #df5d86;
+    box-sizing: border-box;
+    height: 30px;
+    pointer-events: none;
+    width: 30px;
+}
+
+.zauzeta{
+    background-color: #ea1470;
+}
+
+

@@ -1,0 +1,50 @@
+body{
+    background-color:#f0c3d1;
+    color: #df5d86;
+    font-family: "Reddit Mono", monospace;
+}
+
+h1{
+    color: #df5d86;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Silkscreen", sans-serif;
+}
+
+h2{
+    color: #d14f7b;
+    text-align: left;
+    font-size: 30px;
+    font-family:"Kanit", sans-serif;
+    text-align: center;
+}
+
+table{
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: #df5d86;
+}
+
+td, th {
+    border: 1px solid #df5d86;
+    text-align: center;
+}
+
+.centriraj {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pocetak{
+    background-color: #df5d86;
+    color: #f0c3d1;
+    /*text-align: center;*/
+    font-family: "Silkscreen", sans-serif;
+    font-size: 20px;
+}
+
+
+#prethodna{
+    text-align: center;
+}
